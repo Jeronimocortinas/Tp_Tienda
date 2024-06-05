@@ -5,10 +5,6 @@ using System.Collections.Generic;
 class Program{
   static void Main(string[] args){
       Tienda tienda = new Tienda();
-      Producto producto1 = new Producto("Producto 1", 10.0, 5);
-      Producto producto2 = new Producto("Producto 2", 20.0, 10);
-      tienda.AgregarProducto(producto1);
-      tienda.AgregarProducto(producto2);
 
       Carrito carrito = new Carrito();
       int opcion = 0;
